@@ -12,4 +12,8 @@ namespace {
         EXPECT_EQ(4193, myAtoi("4193 with words"));
         EXPECT_EQ(12345678, myAtoi("  0000000000012345678"));
     }
+    TEST(tests, multiplication) {
+        EXPECT_EQ(5, multiplication(1, 5));
+    }
+
 }
