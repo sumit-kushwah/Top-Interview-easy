@@ -8,8 +8,7 @@ include_directories(googletest/include ../programs) # this is so we can #include
 
 set(SOURCE_FILES
         "test.cpp"
-        "../programs/add.cpp"
-        "../programs/mul.cpp"
+        "../programs/myatoi.cpp"
         )
 
 add_executable(myTests ${SOURCE_FILES}) # add this executable
